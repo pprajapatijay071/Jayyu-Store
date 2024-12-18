@@ -18,7 +18,26 @@
                     margin: 0;
                 }
             } */
-    
+            @media(min-width:780px) and (max-width:1000px){
+                .icon{
+                    opacity: 0;
+                    display: none;
+                }
+                .in{
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+           }
+           @media(min-width:575px) and (max-width:780px){
+                .in{
+                    opacity: 0;
+                    display: none;
+                }
+                .icon{
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+           }
             .banner-porsen {
                 background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(image/top-section-bg.jpeg);
                 background-repeat: no-repeat;
@@ -62,7 +81,7 @@
 
 
 
-                <button type="menu" class="navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#nav" >
+                <button type="menu" class=" navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#nav" >
                     <i class="bi bi-list"></i>
                 </button>
 
@@ -70,11 +89,11 @@
                     
                         <form action="">
                             <div class="input-group">
-                                <button type="search" class="input-group-text border-0 top-start-rounded-0 search-icon ">
+                                <button type="search" class="icon input-group-text border-0 top-start-rounded-0 search-icon ">
                                     <i class="bi bi-search"></i>
                                 </button>
     
-                                <input type="search" class="form-control w-75 search-box top-end-rounded-0 border-0 py-2"
+                                <input type="search" class="in form-control w-75 search-box border-0 py-2"
                                     placeholder="Search bar...">
                             </div>
                         </form>
@@ -93,11 +112,11 @@
     
                   
     
-                    <div class="text-white mx-3">
+                    <div class="text-white h4 mx-3 my-2">
                         <i class="bi bi-person-fill"></i>
                     </div>
     
-                    <div class="text-white mx-3">
+                    <div class="text-white h4 mx-3 my-2">
                         <i class="bi bi-cart"></i>
                     </div>
                 </div>
