@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #20232f;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 27px;
+}
+
+nav {
+    box-shadow: 0.125rem 0.25rem 5px #fefefe33;
+}
+
+.banner-image {
+    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.5));
+}
+
+.b-icons {
+    font-size: 1.5rem;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    animation: light 2s linear infinite;
+}
+
+.button {
+    filter: drop-shadow(0px 0px 7px rgba(0, 255, 255, 0.5));
+    animation: light 2s linear infinite;
+}
+
+.b-icons:hover {
+    color: rgb(0, 174, 255);
+    filter: drop-shadow(0px 0px 7px rgba(0, 255, 255, 0.5));
+}
+
+.c-text {
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .banner-detail {
+        order: 2;
+    }
+
+    .b-image {
+        order: 1;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .b-image {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+.footer-text {
+    background-color: #0e1324;
+}
+
+.f-d {
+    animation: light 2s linear infinite;
+}
+
+@keyframes light {
+    0% {
+        filter: none;
+    }
+
+    50% {
+        filter: drop-shadow(0px 0px 7px rgba(0, 255, 255));
+    }
+
+    100% {
+        filter: none;
+    }
+}
+
+.animation-image {
+    animation: up-down 2.5s linear infinite;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .banner-detail {
+        order: 2;
+    }
+
+    .b-image {
+        order: 1;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 439px) {
+    .animation-image {
+        width: 100%;
+    }
+}
+
+.text-underline {
+    text-decoration: underline 2px dashed white;
+    text-underline-offset: 10px;
+}
+
+@media (max-width: 991px) {
+    .h-w {
+        width: 50%;
+    }
+}
+
+.h-w {
+    width: 60%;
+    /* border: 1px solid red; */
+    margin-block: 5px;
+    background-color: #212529;
+    color: #fff;
+    padding-inline: 20px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px dashed gray;
+}
+
+.input-form {
+    height: 40px;
+}
+
+.textarea-form {
+    height: 150px;
+}
+
+.h-w:focus {
+    outline: none;
+}
+
+.s-image-gallary {
+    transition: 1s;
+}
+
+.s-image-gallary:hover {
+    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.3));
+}
+
+@media (max-width: 991px) {
+    .order1 {
+        order: 1;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .order2 {
+        order: 2;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.img-hover {
+    transition: 1s;
+}
+
+.img-hover:hover {
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+}
+
+.contact-banner-details {
+    animation: opa 4s linear 1;
+}
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.h-l {
+    animation: left 1s ease-out 1;
+}
+
+.h-r {
+    animation: right 1s ease-out 1;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(-700px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(700px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.animated-image {
+    animation: animated-image 1s ease-out 1;
+}
+
+.animated-content {
+    animation: animated-content 1s ease-out 1;
+}
+
+@keyframes animated-image {
+    0% {
+        transform: translateX(-700px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animated-content {
+    0% {
+        transform: translateY(-700px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 0.9;
+    }
+}
+
+.figma-1 {
+    animation: l-animation 1s ease-in 1;
+}
+
+.figma-2 {
+    animation: r-animation 1s ease-in 1;
+}
+
+.figma-3 {
+    animation: l-animation 1s ease-in-out 1;
+}
+
+.figma-4 {
+    animation: r-animation 1s ease-in-out 1;
+}
+
+@keyframes l-animation {
+    0% {
+        transform: translateX(-1300px);
+        opacity: 0;
+    }
+}
+
+@keyframes r-animation {
+    0% {
+        transform: translateX(1300px);
+        opacity: 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .width-media {
+        width: 80%;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 991px) {
+    .width-media {
+        width: 70%;
+    }
+}
+
+@media(max-width: 459px) {
+    .w-c {
+        width: 50%;
+    }
+}
+
+.w-c {
+    width: 25%;
+}
