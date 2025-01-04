@@ -52,10 +52,17 @@ body{
 .text-1:hover{
     background: #000;
 }
-.motar{
-    height: 200px;
+.bicycle {
+    color: #8EC038;
+}
+
+.motar {
+    font-size: 60px;
     margin-top: -100px;
     position: absolute;
-    z-index: 1;
-    font-size: 50px;
+
+    color: #FFFFFF;
+    border: 2px solid red;
+    -box-shadow: 30px 20px rebeccapurple;
+    border-radius: 20px;
 }
