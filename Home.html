@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage Healthy food – FitMeal</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="home.css">
     
 </head>
 <body>
@@ -44,65 +45,119 @@
         </div>
     </section>
     
-    <div class="container bg-wwhite">
-        <div class="col--3 d-flex justify-content-between align-items-center ">
-            <div class="logo mt-2">
-                <img src="http://fitmeal.like-themes.com/wp-content/themes/fitmeal/assets/images/logo.png" alt=""
-                    class="img-fluid p-2" width="200px ">
+    <header class="container navbar-expand-lg py-4">
+            
+            <div class="d-flex container-fluid justify-content-between align-items-center ">
+                <div class="logo ">
+                    <a class="logo ">
+                        <img src="http://fitmeal.like-themes.com/wp-content/themes/fitmeal/assets/images/logo.png" alt="" class="img-fluid mt-3" width="150px ">
+                    </a>
+                    
+                </div>
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" >
+                    <span class="navbar-toggler-icon text-dark border"></span>
+                </button>
+                <div class="offcanvas-lg offcanvas-end " id="navbarNav">
+                    <div class="offcanvas-header">
+                        <a class="offcanvas-title" id="offcanvasExampleLabel">
+                            <img src="http://fitmeal.like-themes.com/wp-content/themes/fitmeal/assets/images/logo.png" alt="" class="img-fluid  " width="100px ">
+                        </a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas-lg" ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav navbar-nav text-dark me-auto ms-5 gap-5">
+                            <li class="nav-item ">
+                                <b>
+                                    <a href="#" class="nav-link text-dark ">
+                                       Home
+                                    </a>
+                                
+                                </b>
+                            </li>
+                            <li>
+                                <b>
+                                    <a href="#" class="nav-link text-dark">
+                                        About us
+                                    </a>
+                                </b>
+                            </li>
+                            <li>
+                                <b>
+                                    <a href="#" class="nav-link text-dark">
+                                        Products
+                                    </a>
+                                </b>
+                            </li>
+                            <li>
+                                <b>
+                                    <a href="#" class="nav-link text-dark">
+                                        Blog
+                                    </a>
+                                </b>
+                            </li>
+                            <li>
+                                <b>
+                                    <a href="#" class="nav-link text-dark">
+                                        Contacts
+                                    </a>
+                                </b>
+                            </li>
+                            <div class="">
+                                <button type="button" class=" border-0 rounded-pill mt-0 ms-5  text-white px-5 p-2 bg-danger">
+                                    Get Menu
+                                </button>
+                            </div>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                
             </div>
-            <div>
-                <ul class="nav text-dark">
-                    <li>
-                        <b>
-                            <a href="#" class="nav-link text-dark ">
-                               Home
-                               <i class="bi bi-caret-right"></i>
-                            </a>
-                        
-                        </b>
-                    </li>
-                    <li>
-                        <b>
-                            <a href="#" class="nav-link text-dark">
-                                About us
-                                <i class="bi bi-caret-right"></i>
-                            </a>
-                        </b>
-                    </li>
-                    <li>
-                        <b>
-                            <a href="#" class="nav-link text-dark">
-                                Products
-                                <i class="bi bi-caret-right"></i>
-                            </a>
-                        </b>
-                    </li>
-                    <li>
-                        <b>
-                            <a href="#" class="nav-link text-dark">
-                                Blog
-                                <i class="bi bi-caret-right"></i>
-                            </a>
-                        </b>
-                    </li>
-                    <li>
-                        <b>
-                            <a href="#" class="nav-link text-dark">
-                                Contacts
-                                <i class="bi bi-caret-right"></i>
-                            </a>
-                        </b>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <button type="button" class=" border-0 rounded-pill text-white px-5 p-2 bg-danger">Get Menu</button>
+
+    </header>
+
+    <div  class=" d-flex  " >
+
+        <div class="img-text pt-4 position-absolute container-lg" >
+            <span class="food display-4 " style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Organic Food</span>
+            <br>
+            <span class="display-4" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Delivery Service</span>
+
+            <p class="lorem ">
+                Vestibulum maximus egestas tortor nec volutpat. Suspendisse lobortis lorem <br>vel enim semper rutrum nulla ac dolor ullamcorper aliquam.
+            </p>
+
+            <div class="d-flex mt-5">
+                <div class="mt-5  px-3">
+                    <button class="text1 btn bg-danger rounded-pill btn-lg py-3 px-5 text-white fw-bold" style="font-size: 15px;">
+                        Read more
+                    </button>
+                </div>
+                <div class="ms-1 mt-5 px-3 ">
+                    <button class="text1 btn rounded-pill btn-lg py-3 px-5 text-white fw-bold" style="background: #8EC038; font-size: 15px;">
+                        View Plans
+                    </button>
+                </div>
             </div>
         </div>
+        <!-- <h1 class="text-white position-absolute fw-bold">welcome to our website</h1> -->
+        <div class="d-flex align-items-center justify-content-between pb-5">
+            <img src="image/slider-healthy.png" alt="" class="position-absolute pb-5 img-fluid  w-50" >
+        </div>
+        <img src="image/health-slider.png" alt="" class="img-fluid " width="100%"  >
     </div>
+    
 
-    .
+    <div class="containet">
+        <div class="moter col-md-4 p-3 d-flex ">
+            <div class="col-md-3 justify-content-between d-flex align-items-center">
+                <i class="bi bi-bicycle"></i>
+            </div>
 
+        </div>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

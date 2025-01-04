@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0 ;
+}
+.img-text{
+   margin: 250px 0 0 125px;
+   z-index: 1;
+}
+.food{
+    color: #8EC038;
+}
+@media (max-width:1000px) and (min-width:700px){
+    .img-text{
+        margin: 200px 0 0 200px;
+    }
+}
+@media (max-width:699px) and (min-width:550px){
+    .img-text{
+        margin: 150px 0 0 170px;
+    }
+}
+@media (max-width:549px) and (min-width:430px){
+    .img-text{
+        margin: 130px 0 0 120px;
+    }
+}
+@media (max-width:429px) and (min-width:350px){
+    .img-text{
+        margin: 80px 0 0 90px;
+        font-size: 20px;
+    }
+}
+@media (max-width:349px) and (min-width:260px){
+    .img-text{
+        margin: 60px 0 0 40px;
+       
+    }
+}
+@media (max-width:259px) and (min-width:150px){
+    .img-text{
+        margin: 0px 0 0 00px;
+       font-size: x-small;
+    }
+}
+.lorem{
+    margin-top: 15px;
+}
+.text-1{
+    transition: all;
+    transform: perspective(3s);
+}
+.text-1:hover{
+    background: #000;
+}
+.motar{
+    height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: 1;
+    font-size: 50px;
+}
