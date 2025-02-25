@@ -2,44 +2,115 @@ body{
     margin: 0;
     padding: 0 ;
 }
+.header{
+    position: sticky;
+    top: -10px;
+    z-index: 5;
+    background-color: white;
+}
 .img-text{
    margin: 250px 0 0 125px;
    z-index: 1;
+   width: 580px;
+}
+.img-button{
+    margin-top: 48px;
 }
 .food{
     color: #8EC038;
 }
-@media (max-width:1000px) and (min-width:700px){
+@media (max-width:1000px) and (min-width:850px){
     .img-text{
-        margin: 200px 0 0 200px;
+        margin: 150px 0 0 150px;
+    }
+    .img-button{
+        margin-top: 20px;
+    }
+}
+@media (max-width:849px) and (min-width:700px){
+    .img-text{
+        margin: 120px 0 0 120px;
+        width: 550px;
+    }
+    .img-button{
+        margin-top: 20px;
     }
 }
 @media (max-width:699px) and (min-width:550px){
     .img-text{
-        margin: 150px 0 0 170px;
+        margin: 50px 0 0 50px;
+        width: 500px;
+    }
+    .img-button{
+        margin-top: 20px;
     }
 }
 @media (max-width:549px) and (min-width:430px){
     .img-text{
-        margin: 130px 0 0 120px;
+        margin: 25px 0 0 25px;
+        width: 400px;
+    }
+    .img-button{
+        margin-top: 10px;
+    }
+    .img-text .img-button button {
+        height: 20px;
+        width: 30px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
     }
 }
+
 @media (max-width:429px) and (min-width:350px){
     .img-text{
-        margin: 80px 0 0 90px;
+        margin: 15px 0 0 15px;
         font-size: 20px;
+        width: 350px;
+    }
+    .img-button{
+        margin-top: 5px;
+    }
+    .img-text .img-button button {
+        height: 20px;
+        width: 30px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
     }
 }
 @media (max-width:349px) and (min-width:260px){
     .img-text{
-        margin: 60px 0 0 40px;
-       
+        margin: 12px 0 0 12px;
+        font-size: 17px;
+        width: 300px;
+    }
+    .img-button{
+        margin-top: 2px;
+    }
+    .img-text .img-button button {
+        height: 20px;
+        width: 30px;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
     }
 }
 @media (max-width:259px) and (min-width:150px){
     .img-text{
         margin: 0px 0 0 00px;
        font-size: x-small;
+       width: 100%;
+    }
+    .img-button{
+        margin-top: 0px;
+    }
+    .img-text .img-button button {
+        height: 20px;
+        width: 15px;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
     }
 }
 .lorem{
@@ -57,12 +128,24 @@ body{
 }
 
 .motar {
-    font-size: 60px;
-    margin-top: -100px;
-    position: absolute;
 
+    margin-top: -100px;
     color: #FFFFFF;
-    border: 2px solid red;
-    -box-shadow: 30px 20px rebeccapurple;
-    border-radius: 20px;
+}
+.video{
+    height: 400px;
+    width: 200px;
+    margin-left:-70px; 
+    background-repeat: no-repeat;
+    background-image: url(image/video-bg.png);
+    
+}
+
+.forpthree {
+    font-size: 14.2px;
+
+}
+#green{
+    color: #8EC038;
+    
 }
